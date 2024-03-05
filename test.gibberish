@@ -1,0 +1,109 @@
+int y;
+
+int f(int a){
+    a++;
+    return a;
+}
+
+int main(){
+    cout << "Prog Starts!";
+    cout << "\n";
+    cout << f(5);
+    cout << "\n";
+
+    if (true){
+    int x;
+        bool z;
+        cout << "Hello, World!";
+        cout << "\n";
+
+        // test string equality
+        cout << "Hello" == "Hello";
+        cout << "\n";
+        cout << "Hello" == "Hello\n";
+        cout << "\n";
+
+        // Test and
+        z = true;
+        cout << z && z;
+        cout << false && true;
+        cout << true && false;
+        cout << "\n";
+
+        // Test or
+        cout << z || z;
+        cout << "\n";
+        cout << false || true;
+        cout << "\n";
+        cout << true || false;
+        cout << "\n";
+        cout << false || false;
+        cout << "\n";
+
+        // Test addition, subtraction, multiplication, division
+        x=2+8+3;
+        cout << x;
+        cout << "\n";
+        x=2-2;
+        cout << x;
+        cout << "\n";
+        x=3*9;
+        cout << x;
+        cout << "\n";
+        x=24/3;
+        cout << x;
+        cout << "\n";
+
+        // Test increment, decrement
+        x++;
+        cout << x;
+        cout << "\n";
+        x--;
+        cout << x;
+        cout << "\n";
+
+        // Test booleans
+        z = true;
+        cout << z;
+        cout << "\n";
+        z = false;
+        cout << z;
+        cout << "\n";
+        // Test not
+        z = !z;
+        cout << z;
+        cout << "\n";
+
+        // if-else statements
+        if (6 == y){
+            cout << "equal\n";
+        }
+        else{
+            cout << "not equal\n";
+        }
+
+        // Relational operators
+        cout << 5 < 6;
+        cout << 6 > 5;
+
+        cout << 7 < 6;
+        cout << 6 > 7;
+
+        cout << 5 >= 5;
+        cout << 5 <= 5;
+        cout << 6 >= 5;
+        cout << 5 <= 6;
+
+        cout << 5 >= 6;
+        cout << 6 <= 5;
+
+        y = 5;
+        cout << y;
+        cout << "\n";
+        x = y;
+        cout<< x;
+        cout << "\n";
+        cout << "Prog ends!";
+        cout << "\n";
+    }
+}
